@@ -1,11 +1,11 @@
-            let menuElem = document.getElementById('menu_js');
-            let titleElem = menuElem.querySelector('.title');
+let menuElem = document.getElementById('menu_js');
+let titleElem = menuElem.querySelector('.title');
         
-            titleElem.onclick = function() {
-              menuElem.classList.toggle('open');
-            };
+titleElem.onclick = function() {
+ menuElem.classList.toggle('open');
+};
 
-            let name=document.getElementById("name");
+let name=document.getElementById("name");
 name.addEventListener("input", function (event) {
     if (!name.validity.patternMismatch) {
       name.setCustomValidity("");
