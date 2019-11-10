@@ -1,0 +1,138 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <aside>
+        <div id="menu_js" class="menu">
+            <span class="title">
+                <div></div>
+            </span>
+            <nav>
+                <ul>
+                    <li><a href="#bg">Особенности кружка</a>
+                    <li><a href="#descr">Описание</a>
+                    <li><a href="#reg">Запись</a>
+                    <li><a href="#contacts">Контактная информация</a>
+                </ul>
+            </nav>  
+        </div>
+    </aside>
+    <header>
+        <divz>
+            КРУЖОК "ПК И ЕГО ЖИЗНЬ"
+        </div>
+    </header>
+    <main>
+        <div class="img_bg">
+            <a name="bg"></a>
+            <div class="block_imb_bg" >
+                <h3>УЧЕНИЕ И ОБЩЕНИЕ</h3>
+                <p>Вы научитесь самостоятельно собирать, настраивать и ремонтировать компьютеры и ноутбуки, и все это в приятной дружеской атмосфере</p>
+            </div>
+        </div>
+        <div class="description" >
+            <a name="descr"></a>
+            <div>
+                <h3>
+                    КРУЖОК "ПК И ЕГО ЖИЗНЬ"
+                </h3>
+                <h4>
+                    будет увлекательным как новичкам так и любителям с опытом
+                </h4>
+            </div>
+            <ul>
+                <li>Настройка и ремонт современных ПК</li>
+                <li>Сборка ПК и подбор комплектующих</li>
+                <li>Настройка ПО, установка драйверов</li>
+                <li>Изучение жёстких дисков, HDD и SSD</li>
+            </ul>
+        </div>
+        
+        <a name="contacts"></a>
+        <div class="contacts">
+            <div class="map">
+                <iframe width="100%" height="100%" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=%D1%83%D0%BB.%20%D0%B4%2C%20Tashkentskaya%20Ulitsa%2C%2021%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%202%2C%20Moscow%2C%20109444+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="under_map">
+                <p>Адрес:</p> 
+                <p>Москва, Ташкентская ул, д. 17к2</p>
+                <br>
+                <p>Телефон:</p>
+                <p>+79588003680</p>
+                <p>+79269844608</p>
+                <br>
+                <p>Email:</p>
+                <p>tropos707@mail.ru</p>
+                <p>vbif009@mail.ru</p>
+            </div>
+        </div>
+        <div class="reg">
+            <a name="reg"></a>
+            <form id="form">
+                <div>
+                    <h3>
+                        Попробуйте бесплатно!
+                    </h3>
+                </div>
+                <div class="form-item">
+                    <label for="name">Имя</label><br>
+                    <input id="name" type="text" name="name" maxlength="20" pattern="^([\p{Lu}\p{Lt}]\p{Ll}+)+$" required><br>
+                </div>
+                <div class="form-item">
+                    <label for="secondname">Фамилия</label><br>
+                    <input id="secondname" type="text" name="secondname" maxlength="20" pattern="^([\p{Lu}\p{Lt}]\p{Ll}+)+$" required><br>
+                </div>
+                <div class="form-item">
+                    <label for="fathername">Отчество</label><br>
+                    <input id="fathername" type="text" name="fathername" maxlength="20" pattern="^([\p{Lu}\p{Lt}]\p{Ll}+)+$"><br>
+                </div>
+                <div class="form-item">
+                    <label for="email">Электронная почта</label><br>
+                    <input id="email" type="email" name="email" maxlength="300" pattern="^.+@.+\..+$" required><br>
+                </div>
+                <div class="form-item">
+                    <label for="number">Телефон</label><br>
+                    <input id="number" type="tel" name="number" pattern="(\+7[0-9]{10})" required><br>
+                </div>
+                <div class="form-item">
+                    <input type="submit" value="Подать заявку">
+                </div>
+            </form>
+    </main>
+    <footer>
+        <div>
+            <h4>Главная:</h4>
+            <nav>
+                <ul>
+                    <li><a href="#bg">Особенности кружка</a>
+                    <li><a href="#descr">Описание</a>
+                    <li><a href="#reg">Запись</a>
+                    <li><a href="#contacts">Контактная информация</a>
+                </ul>
+            </nav>  
+        </div>
+        <div>
+            <h4>Телефон:</h4>
+            <p>+79269844608</p>
+            <p>+79588003680</p>
+        </div>
+        <div>
+            <h4>Адрес:</h4>
+            <p>Москва, Ташкентская ул, д. 17к2</p>
+        </div>
+        <div>
+            <h4>Email:</h4>
+            <p>tropos707@mail.ru</p>
+            <p>vbif009@mail.ru</p>
+        </div>
+    </footer>
+    <script></script>        
+</body>
+</html>
