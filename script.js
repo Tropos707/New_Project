@@ -1,4 +1,4 @@
-let menuElem = document.getElementById('menu_js');
+let menuElem = document.getElementById('menu_jquery');
 let titleElem = menuElem.querySelector('.title');
         
 titleElem.onclick = function() {
