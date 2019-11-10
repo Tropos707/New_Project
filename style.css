@@ -172,15 +172,13 @@ text-align: center;
     padding: 20px;
     margin: 5%;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
     background-color: rgb(255, 255, 255);
 }
 .description h3{
-    text-align: center;
     color:hsl(205, 93%, 63%);
 }
 .description h4{
-    text-align: center;
     color:rgb(128, 126, 126);
 }
 .contacts{
